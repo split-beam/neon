@@ -7,7 +7,7 @@
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":10,},
     {"id":{"name":"obj_movinglight","path":"objects/obj_movinglight/obj_movinglight.yy",},"order":1,},
     {"id":{"name":"obj_slow_proj","path":"objects/obj_slow_proj/obj_slow_proj.yy",},"order":14,},
-    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":11,},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":5,},
     {"id":{"name":"obj_bg_menu","path":"objects/obj_bg_menu/obj_bg_menu.yy",},"order":4,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":5,},
     {"id":{"name":"spr_exit","path":"sprites/spr_exit/spr_exit.yy",},"order":22,},

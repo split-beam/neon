@@ -30,7 +30,7 @@ if(instance_exists(obj_player))
 		}
 	
 	}
-	else if(obj_player.slow == true)
+	else if(obj_player.slow == true && !obj_player.dead)
 	{
 		part_particles_create(global.partSystem, obj_player.x, obj_player.y, global.ptBasicSl, 1);
 	}

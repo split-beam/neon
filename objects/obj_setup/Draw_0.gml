@@ -6,7 +6,7 @@ var _vb = vb;
 
 if(!surface_exists(shad_surf))
 {
-	shad_surf = surface_create(640,360); //view size
+	shad_surf = surface_create(1920,1080); //view size
 }
 
 surface_set_target(shad_surf);

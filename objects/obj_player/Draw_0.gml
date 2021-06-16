@@ -5,7 +5,7 @@
   }
   gpu_set_blendmode(bm_normal);
   
-if (slow = true && !dead)
+if (slow = true)
 {
 	shader_set(Shader0);
 	draw_self();
@@ -13,6 +13,7 @@ if (slow = true && !dead)
 }
 else
 {
+	
 	draw_self();
 }
 
