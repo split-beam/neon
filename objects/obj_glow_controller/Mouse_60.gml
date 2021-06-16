@@ -1,2 +1,2 @@
-pulse_speed += 0.005;
+//pulse_speed += 0.005;
 
