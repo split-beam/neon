@@ -73,6 +73,7 @@ x =clamp(x,0+sprite_width,room_width-sprite_width);
 y =clamp(y,sprite_height,220-sprite_width);
 #endregion
 
+#region health
 if hp == 3
 {sprite_index = spr_neon}
 else if hp == 2
@@ -85,4 +86,4 @@ else if hp <= 0 && !dead
 	obj_gamecontroller.timercount=0;
 	dead=true
 }
-
+#endregion
