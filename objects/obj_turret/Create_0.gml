@@ -11,3 +11,4 @@ alarm[0] = firerate;
 rounds = 30;
 sway = choose(-20,-15,-10,-5,0,5,10,15,20);
 wep = choose(1,1);
+__glow_texture = spr_t_glowmap;
