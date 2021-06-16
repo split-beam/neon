@@ -7,5 +7,5 @@ shader_set(shd_glow_map);
     draw_surface(application_surface, 0, 0);
 shader_reset();
 
-draw_text(0, 0, string_hash_to_newline("Glow pulse speed (Mouse wheel to change) = " + string(pulse_speed)));
+//draw_text(0, 0, string_hash_to_newline("Glow pulse speed (Mouse wheel to change) = " + string(pulse_speed)));
 
