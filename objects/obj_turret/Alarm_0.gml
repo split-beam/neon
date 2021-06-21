@@ -15,7 +15,7 @@ if(rounds <= 0)
 {
 	instance_destroy(id);
 }*/
-if(!instance_exists(obj_tripshot))
+if(!instance_exists(obj_tut_burst))
 {
 	alarm[0] = firerate;
 }

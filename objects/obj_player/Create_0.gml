@@ -13,3 +13,4 @@ image_yscale=0.5;
 max_boost = 600;
 boost=max_boost;
 drained = false;
+teleport = false;

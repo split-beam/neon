@@ -6,3 +6,5 @@ part_system_depth(global.partSystem, 1);
 timer = 60;
 timermsecs = 0;
 timercount = 1;
+start = false;
+win = false;

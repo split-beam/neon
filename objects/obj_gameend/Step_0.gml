@@ -25,13 +25,5 @@ else
 msstring = string_copy( global.milliseconds, 1, 2);
 }
 
-if(global.highscoremin < mstring)
-{
-	global.highscoremin = mstring;
-	global.highscoresec = sstring;
-	global.highscoremis = msstring;
-}
-else if (global.highscoremin = mstring && global.highscoresec < sstring)
-{
-	 global.highscoresec = sstring;
-}
+global.time = string(mstring)+":"+string(sstring)+"."+string(msstring);
+show_debug_message(global.time);
