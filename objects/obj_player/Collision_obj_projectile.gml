@@ -1,7 +1,7 @@
 
 if(!iframe)
 {
-	hp --;
+	//hp --;
 	hit=true;
 	alarm[1] = 24;
 	alarm[0] = 60;

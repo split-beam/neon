@@ -10,9 +10,5 @@ switch(wep)
 
 }
 
-rounds -= 1;
-if(rounds <= 0)
-{
-	instance_destroy(id);
-}
+
 alarm[0] = firerate;

@@ -62,6 +62,24 @@ if boost > max_boost {boost = max_boost}
 if boost <= 0 {boost = 0; drained = true; }	//play sound
 if boost >= 200{drained = false; }// play refuel sound
 	
+if(boost>299 && mouse_check_button_pressed(mb_right) && !teleport)
+{
+	var telerange = min(distance_to_point(mouse_x, mouse_y), 200);
+	var teledir = point_direction(x, y, mouse_x, mouse_y);
+	var telex = x + lengthdir_x(telerange, teledir);
+	var teley = y + lengthdir_y(telerange, teledir);
+	x = telex;
+	y = teley;
+	boost -= 300;
+	teleport = true;
+	/*//peffect
+	if(mouse_x < x)
+	{ x -= 100;}
+	else if (mouse_x>x)
+	{
+	 x += 100;	
+	}*/
+}
 
 
 if(keyboard_check_pressed(ord("R")))
@@ -83,7 +101,7 @@ else if hp == 1
 else if hp <= 0 && !dead
 {
 	instance_create_depth(room_width/2,room_height/2,-100,obj_gameend);
-	obj_gamecontroller.timercount=0;
+	obj_gamecontroller.start=false;
 	dead=true
 }
 #endregion

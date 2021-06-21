@@ -166,5 +166,20 @@ function scr_init(){
 	
 	global.ptDed = _ded;
 	
+		//tele part
+	
+	var _t = part_type_create();
+
+	part_type_shape(_t, pt_shape_circle);
+	part_type_life(_t,30,60);
+	
+	part_type_alpha3(_t, 0, 1, 0);
+	part_type_color2(_t, c_yellow, c_red);
+	part_type_size(_t, 0.5, 0.8, 0.02, 0);
+	
+	part_type_direction(_t, 0, 360, 0, 0);
+	
+	global.ptTel = _t;
+	
 	#endregion
 }

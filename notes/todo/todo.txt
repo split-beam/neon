@@ -5,5 +5,30 @@ right click to use powerup?
 screenshake and other vfx
 boost bar? part get smaller?
 
-score board
+score board (mission failed boys, we'll get 'em next time)
 draw neon turrets
+
+make tip shot (lunar net)
+increase spawn rate of obstacles with time
+fix error
+
+
+___________________________________________
+############################################################################################
+ERROR in
+action number 1
+of  Step Event0
+for object obj_tripshot:
+
+Variable obj_tripshot.sway(100125, -2147483648) not set before reading it.
+ at gml_Object_obj_tripshot_Step_0 (line 4) - direction=point_direction(x,y,obj_player.x+sway,obj_player.y+sway);
+############################################################################################
+gml_Object_obj_tripshot_Step_0 (line 4)
+
+replace the slow turrets after the triple shot burst with better ones, ice? laser?
+
+timer gets stuck at 1:01 (did 2:08)
+
+test end
+
+set sprite to change
